@@ -56,6 +56,9 @@ You can use LibreOffice with Java in several ways, primarily through the use of 
 5. Run Your Java Application: Compile and run your Java application. Make sure that LibreOffice is running in the background, as it needs to be running to allow Java to connect to its API. 
 6. Explore Further: The LibreOffice API is extensive, so you can explore additional functionalities such as manipulating spreadsheets, presentations, or accessing other LibreOffice components.
 For more detailed information, refer to the LibreOffice SDK documentation and the Java UNO API documentation.
+    
+    https://api.libreoffice.org/docs/idl/ref/index.html
+    https://api.libreoffice.org/docs/java/ref/help-doc.html
     */
     
 }
