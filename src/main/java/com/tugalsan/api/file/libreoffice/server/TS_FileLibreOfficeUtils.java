@@ -8,7 +8,11 @@ public class TS_FileLibreOfficeUtils {
 
     }
 
-    final private static TS_Log d = TS_Log.of(TS_FileLibreOfficeUtils.class);
+    
+    private static TS_Log d() {
+        return d.orElse(TS_Log.of(TS_FileLibreOfficeUtils.class));
+    }
+    final private static StableValue<TS_Log> d = StableValue.of();
 
    
 }
