@@ -1,6 +1,6 @@
 package com.tugalsan.api.file.libreoffice.server;
 
-import com.tugalsan.api.log.server.TS_Log;
+import module com.tugalsan.api.log;
 
 public class TS_FileLibreOfficeUtils {
 
