@@ -7,6 +7,11 @@
   
     <dependencies>
         <dependency>
+            <groupId>org.jodconverter</groupId>
+            <artifactId>jodconverter-local-lo</artifactId>
+            <version>4.4.11</version>
+        </dependency>
+        <!--<dependency>
             <groupId>org.libreoffice</groupId>
             <artifactId>juh</artifactId>
             <version>24.8.4</version>
@@ -25,7 +30,7 @@
             <groupId>org.libreoffice</groupId>
             <artifactId>unoil</artifactId>
             <version>24.8.4</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>com.tugalsan.api.log</artifactId>
